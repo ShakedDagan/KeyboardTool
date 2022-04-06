@@ -1,0 +1,25 @@
+.keyboardDiv {
+    position:fixed;
+    bottom:0;
+    left: 25vw;
+    height:18vh;
+    width:60vw;
+}
+.quitButton {
+    height:1vh;
+    width:1vw;
+    left:100%;
+    position:absolute;
+    bottom:100%;
+}
+.quitButton:after{
+    content: "\00d7"; /* This will render the 'X' */
+}
+.react-simple-keyboard {
+    max-height: 100%;
+    max-width: 100%;
+    bottom: 0;
+}
+button {
+    margin-top: 10px;
+}
