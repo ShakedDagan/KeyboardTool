@@ -1,11 +1,17 @@
 {
-  "name": "keyboard",
-  "private": true,
-  "version": "0.0.0",
+  "name": "virtual-keyboard-tool-web",
+  "private": false,
+  "version": "1.0.0",
+  "description": "virtual keyboard tool + input",
+  "author": "Shaked Dagan",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShakedDagan/KeyboardTool.git"
   },
   "dependencies": {
     "react": "^17.0.2",
